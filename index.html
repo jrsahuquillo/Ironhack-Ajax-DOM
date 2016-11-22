@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery Exercises</title>
+  <script type="text/javascript"></script>
+  <script src="jquery-2.1.4.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+
+  <button class="js-fetch-characters">Fetch characters</button>
+  <ul class="js-character-list"></ul>
+  <form action="submit-characters" method="post">
+    <div>
+        <label for="name">Name:*</label>
+        <input type="text" id="name" required/>
+    </div>
+    <div>
+        <label for="occupation">Occupation:*</label>
+        <input type="text" id="occupation" required/>
+    </div>
+    <div>
+        <label for="debt">Debt:</label>
+        <input type="text" id="debt"/>
+    </div>
+    <div>
+        <label for="weapon">Weapon:*</label>
+        <input type="text" id="weapon" required/>
+    </div>
+    <div class="submit-button">
+        <button type="submit">Send character</button>
+    </div>
+</form>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
